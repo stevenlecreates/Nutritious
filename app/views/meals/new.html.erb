@@ -1,0 +1,8 @@
+<h1>Please Enter Your Healthy Meal Details Here!</h1>
+
+<%= simple_form_for @user do |f| %>
+  <%= f.input :name %>
+  <%= f.input :ingredients %>
+  <%= f.input :instructions %>
+  <%= f.submit 'Create' %>
+<% end %>

@@ -55,4 +55,5 @@ Nutritious::Application.routes.draw do
   #   end
 
   root 'meals#index'
+  resources :meals
 end
